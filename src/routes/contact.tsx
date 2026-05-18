@@ -108,7 +108,7 @@ function ContactPage() {
 
         <div className="space-y-5">
           <div className="grid gap-4 sm:grid-cols-2">
-            <ContactCard Icon={Phone} title="Call us" sub="+27 555 010 1234" href="tel:+27 82 444 5656" />
+            <ContactCard Icon={Phone} title="Call us" sub="+27 82 444 5656" href="tel:+27824445656" />
             <ContactCard
               Icon={MessageCircle}
               title="WhatsApp"
