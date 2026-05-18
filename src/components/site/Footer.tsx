@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { Instagram, Facebook, Twitter, Mail, Phone, MapPin, Clock, Sparkles } from "lucide-react";
+import { Instagram, Facebook, Twitter, Mail, Phone, MapPin, Clock } from "lucide-react";
+import logo from "@/assets/Prime Shine logo-Photoroom.png";
 
 export function Footer() {
   return (
@@ -9,8 +10,14 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link to="/" className="flex items-center gap-2">
-              <span className="grid h-9 w-9 place-items-center rounded-md bg-gradient-to-br from-primary to-[oklch(0.55_0.13_70)] text-primary-foreground">
-                <Sparkles className="h-4 w-4" />
+              <span className="grid h-9 w-9 place-items-center overflow-hidden rounded-md">
+                <img
+                  src={logo}
+                  alt="Prime Shine & Repair logo"
+                  width={36}
+                  height={36}
+                  className="h-full w-full object-contain"
+                />
               </span>
               <span className="font-display text-lg font-bold">
                 Prime <span className="text-gradient-gold">Shine</span>
