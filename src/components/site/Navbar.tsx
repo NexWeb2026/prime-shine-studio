@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "@tanstack/react-router";
-import { Menu, X, Sparkles } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "@/assets/Prime Shine logo-Photoroom.png";
 
 const links = [
   { to: "/", label: "Home" },
@@ -36,11 +37,17 @@ export function Navbar() {
       }`}
     >
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-10">
-        <Link to="/" className="flex items-center gap-2 group">
-          <span className="grid h-9 w-9 place-items-center rounded-md bg-gradient-to-br from-primary to-[oklch(0.55_0.13_70)] text-primary-foreground shadow-gold">
-            <Sparkles className="h-4 w-4" strokeWidth={2.4} />
+        <Link to="/" className="flex min-w-0 items-center gap-3 group">
+          <span className="grid h-11 w-11 shrink-0 place-items-center overflow-hidden rounded-md">
+            <img
+              src={logo}
+              alt="Prime Shine & Repair logo"
+              width={44}
+              height={44}
+              className="h-full w-full object-contain"
+            />
           </span>
-          <span className="font-display text-lg font-bold tracking-tight">
+          <span className="truncate font-display text-lg font-bold tracking-tight">
             Prime <span className="text-gradient-gold">Shine</span>
             <span className="text-muted-foreground"> & Repair</span>
           </span>

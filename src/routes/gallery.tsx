@@ -11,6 +11,7 @@ import dent from "@/assets/g-dent.jpg";
 import bumper from "@/assets/g-bumper.jpg";
 import wheel from "@/assets/g-wheel.jpg";
 
+
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
