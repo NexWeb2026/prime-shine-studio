@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { CalendarCheck } from "lucide-react";
 
+// Floating action buttons for booking and mobile CTAs
 export function FloatingActions() {
   return (
     <>
