@@ -62,16 +62,6 @@ function HomePage() {
           style={{ opacity }}
           className="relative z-10 mx-auto flex min-h-[100vh] max-w-7xl flex-col justify-center px-6 pt-28 pb-32 lg:px-10"
         >
-          <motion.span
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex w-fit items-center gap-2 rounded-full glass-gold px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-primary"
-          >
-            <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-            Luxury Auto Care · Est. 2013
-          </motion.span>
-
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
