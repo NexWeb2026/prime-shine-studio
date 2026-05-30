@@ -208,7 +208,7 @@ function BookingsPage() {
                     <input
                       value={form.phone}
                       onChange={(e) => set("phone", e.target.value)}
-                      placeholder="+1 (555) 123 4567"
+                      placeholder="+27 82 444 5656"
                       className={inputCls}
                     />
                   </Field>
@@ -285,7 +285,7 @@ function BookingsPage() {
           </div>
 
           <a
-            href="tel:+15550101234"
+            href="tel:+27824445656"
             className="flex items-center gap-3 rounded-3xl border border-border bg-card p-7 transition hover-gold-glow"
           >
             <span className="grid h-10 w-10 place-items-center rounded-lg glass-gold text-primary">
@@ -293,7 +293,7 @@ function BookingsPage() {
             </span>
             <div>
               <p className="text-xs uppercase tracking-widest text-muted-foreground">Call us</p>
-              <p className="font-semibold">+1 (555) 010-1234</p>
+              <p className="font-semibold">+27 82 444 5656</p>
             </div>
           </a>
         </aside>

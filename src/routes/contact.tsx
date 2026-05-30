@@ -108,12 +108,12 @@ function ContactPage() {
 
         <div className="space-y-5">
           <div className="grid gap-4 sm:grid-cols-2">
-            <ContactCard Icon={Phone} title="Call us" sub="+1 (555) 010-1234" href="tel:+15550101234" />
+            <ContactCard Icon={Phone} title="Call us" sub="+27 82 444 5656" href="tel:+27824445656" />
             <ContactCard
               Icon={MessageCircle}
               title="WhatsApp"
               sub="Quick replies"
-              href="https://wa.me/15550101234"
+              href="https://wa.me/27824445656"
             />
             <ContactCard Icon={Mail} title="Email" sub="hello@primeshine.co" href="mailto:hello@primeshine.co" />
             <ContactCard Icon={MapPin} title="Visit" sub="14 Atelier Drive, Studio Bay" href="#map" />
